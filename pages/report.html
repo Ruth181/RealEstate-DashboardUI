@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../dist/output.css">
+    <link rel="stylesheet" href="../style.css">
+    <title>Inbox</title>
+</head>
+<body class="">
+    <div class="w-full bg-[#F4F8FE] flex">
+        <!-- SIDE NAVIGATION STARTS HERE -->
+        <div class="hidden xl:block w-64 h-screen">
+            <div class="fixed w-64 h-screen overflow-y-auto">
+                <div class="m-6">
+                    <p class="text-[#0957CB] text-lg font-semibold uppercase px-4">Abel's Space</p>
+                </div>
+  
+                <!-- A-HREF LINKS STARTS HERE -->
+                <div class="m-6 h-20 text-xs font-lg">
+                    <a href="../index.html">
+                      <section class="w-4/5 flex justify-between items-center capitalize p-4 my-2 hover:bg-white hover:shadow-lg rounded-lg cursor-pointer">
+                        <div class="w-fit flex flex-row gap-2">
+                            <object data="../images/home.svg" type="image/svg+xml" width="15px"></object>
+                            <p>Dashboard</p>
+                        </div>
+                        <object data="../images/chevron-right.svg" type="image/svg+xml" width="15px"></object>
+                      </section>
+                    </a>
+                    <a href="./users.html">
+                      <section class="w-4/5 flex justify-between items-center capitalize p-4 my-2 hover:shadow-lg hover:bg-white rounded-lg cursor-pointer">
+                        <div class="w-fit flex flex-row gap-2">
+                            <object data="../images/users.svg" type="image/svg+xml" width="15px"></object>
+                            <p>Users</p>
+                        </div>
+                        <object data="../images/chevron-right.svg" type="image/svg+xml" width="15px"></object>
+                      </section>
+                    </a>
+                    <a href="./report.html">
+                      <section class="w-4/5 flex justify-between items-center capitalize p-4 my-2 hover:shadow-lg hover:bg-white rounded-lg cursor-pointer">
+                        <div class="w-fit flex flex-row gap-2">
+                            <object data="../images/file-text.svg" type="image/svg+xml" width="15px"></object>
+                            <p>Report</p>
+                        </div>
+                        <object data="../images/chevron-right.svg" type="image/svg+xml" width="15px"></object>
+                      </section>
+                    </a>
+                    <a href="">
+                      <section class="w-4/5 flex justify-between items-center capitalize p-4 my-2 hover:shadow-lg hover:bg-white rounded-lg cursor-pointer">
+                        <div class="w-fit flex flex-row gap-2">
+                            <object data="../images/inbox.svg" type="image/svg+xml" width="15px"></object>
+                            <p>Inbox</p>
+                        </div>
+                        <object data="../images/chevron-right.svg" type="image/svg+xml" width="15px"></object>
+                      </section>
+                    </a>
+                    <a href="">
+                      <section class="w-4/5 flex justify-between items-center capitalize p-4 my-2 hover:shadow-lg hover:bg-white rounded-lg cursor-pointer">
+                        <div class="w-fit flex flex-row gap-2">
+                            <object data="../images/Vector.svg" type="image/svg+xml" width="15px"></object>
+                            <p>Available units</p>
+                        </div>
+                        <object data="../images/chevron-right.svg" type="image/svg+xml" width="15px"></object>
+                      </section>
+                    </a>
+                </div>
+              </div>
+              <!-- A-HREF LINKS ENDS HERE -->
+        </div>
+        <!-- SIDE NAVIGATION ENDS HERE -->
+
+        <!-- FLEX LAYOUT STARTS HERE -->
+        <div class="flex-1 w-full">
+            <!-- layout container div begins here -->
+            <div class="w-full h-auto">
+                 <!-- TOP HEADER STARTS -->
+                <!-- FIRST DIVISION OF TOP HEADER, CONTAINING hello text, search, button -->
+              <div class="flex justify-center xl:w-11/13">
+                <div class="w-11/12 xl:w-11/13">
+                  <div class="w-full flex flex-row items-center gap-4 bg-[#F4F8FE] sticky top-0 ">
+                    <div class="w-full lg:w-4/5 flex justify-between items-center gap-8">
+                      <div class="flex flex-row gap-4 xl:flex-none">
+                        <button class="outline-none w-fit p-2 block xl:hidden">
+                          <img src="../images/menu.svg" alt="" width="20" height="20">
+                        </button>
+                        <div class="capitalize py-2 w-48">
+                          <p class="text-[#0957CB] text-sm font-semibold py-0.5">Hello Emma</p>
+                          <p class="text-[#7C7C80] text-xs pb-0.5">Real Estate agent</p>
+                        </div>
+                      </div>
+                      <div class="lg:flex grow hidden">
+                          <div class="w-full bg-white rounded-lg">
+                              <form action="">
+                                <div class="w-full flex flex-row gap-2 items-center text-[#7C7C80] rounded-lg px-2">
+                                    <object data="../images/search.svg" type="image/svg+xml" width="17px"></object>
+                                    <input type="search" class="grow text-[#7C7C80] text-xs p-2 focus:outline-none rounded-lg" placeholder="Search">
+                                </div>
+                              </form>
+                          </div>
+                      </div>
+  
+                      <div class="flex justify-end w-fit gap-8 lg:gap-0">
+                          <a href="./upload-property.html" class="hidden md:inline">
+                            <div class="w-fit flex flex-row gap-1 bg-[#0957CB] hover:shadow-lg rounded-lg cursor-pointer text-[10px] py-2 px-4 text-white font-semibold">
+                              <object data="../images/plus.svg" type="image/svg+xml" width="15px"></object>
+                              <span>Add&nbsp;Property</span>
+                            </div>
+                          </a>
+
+                          <div class="w-fit flex flex-row items-center gap-2 lg:hidden">
+                            <button class="outline-none w-fit h-fit rounded-lg p-1">
+                              <img src="../images/message-square.svg" alt="" width="17px">
+                            </button>
+                            <button class="outline-none w-fit h-fit rounded-lg p-1">
+                                <img src="../images/bell.svg" alt="" width="17px">
+                            </button>
+                        </div>
+                      </div>
+                      
+                    </div>
+                  <!-- Ends here -->
+                    <!-- SECOND DIVISION OF TOP HEADER, CONTAINING message icon, notification, admin name -->
+                  <div class="w-1/5 hidden lg:flex">
+                      <div class="w-full flex flex-row items-center gap-4">
+                          <button class="outline-none w-fit h-fit rounded-lg p-1">
+                            <img src="../images/message-square.svg" alt="" width="15px">
+                          </button>
+                          <button class="outline-none w-fit h-fit rounded-lg p-1">
+                              <img src="../images/bell.svg" alt="" width="15px">
+                          </button>
+  
+                          <div class="grow bg-white rounded-lg flex justify-between items-center m-2">
+                              <div class="w-fit text-[10px]">
+                                <p class="px-1.5 pt-0.5 font-semibold">Abel</p>
+                                <p class="text-[#7C7C80] px-1.5 pb-0.5">Developer</p>
+                              </div>
+                              <div class="w-fit rounded-lg p-1">
+                                  <img src="../images/dev.svg" alt="dev" width="25px" height="35px" class="object-cover">
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                </div>
+                </div>
+                <!-- ends here -->
+
+              </div>
+
+              <!-- Main Layout starts here -->
+                <div class="w-full">
+                    <div class="flex justify-center xl:w-11/13">
+                        <div class="w-11/12 xl:w-11/13 mt-4 mb-8">
+                            <div class="w-full  min-h-screen">
+                                <div class="w-full flex lg:flex-row flex-col">
+                                    <!-- Reports -->
+                                    <div class="lg:w-1/2 h-screen overflow-y-auto">
+                                        <div class="w-full border-x border-y border-[#D5D9DD] bg-white flex justify-center items-center">
+                                            <div class="w-11/12">
+                                                <div class="w-fit flex flex-row items-center gap-8 text-[#031849]">
+                                                    <section class="flex flex-row items-center gap-2 text-[10px] p-4 font-semibold">
+                                                        <object data="../images/open.svg" width="15px" type=""></object>
+                                                        <!-- dynamic number of reports 99 should be dynamic -->
+                                                        <p>Open (99)</p>
+    
+                                                        <div class="w-fit cursor-pointer">
+                                                            <img src="../images/chevron-down.svg" width="13px" alt="" class="cursor-pointer">
+                                                        </div>
+                                                    </section>
+    
+                                                    <section class="flex flex-row items-center gap-2 text-[10px] p-4 font-semibold">
+                                                        <p>Newest</p>
+    
+                                                        <div class="w-fit cursor-pointer">
+                                                            <img src="../images/chevron-down.svg" width="13px" alt="" class="cursor-pointer">
+                                                        </div>
+                                                    </section>
+                                                </div>  
+                                                <!-- end of inbox header -->
+                                            </div>
+                                        </div>
+                                        <!-- Reports start here -->
+                                        <div class="border-x border-b border-[#D5D9DD] w-full h-32 flex justify-center">
+                                            <div class="w-11/12 h-fit mt-4">
+                                                <div class="w-full flex flex-row gap-4">
+                                                    <div class="flex flex-row gap-4 items-center">
+                                                        <input type="checkbox">
+                                                        <!-- M Icon design -->
+                                                        <div class="flex justify-center items-center px-3 py-2.5 bg-[#4FAFCB] rounded w-fit h-fit">
+                                                            <p class="text-[10px] font-semibold text-white">M</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="grow">
+                                                       <div class="w-fit flex flex-row gap-2 items-center text-[10px] font-semibold capitalize">
+                                                            <div class="text-[#C82024] bg-[#FED5DB] rounded"><p class="px-1 py-px">
+                                                                overdue
+                                                            </p></div>
+                                                            <div class="text-[#2C5EC6] bg-[#B3C0DD] rounded px-1 py-px"><p>
+                                                                customer Responded
+                                                            </p></div>
+                                                       </div>
+                                                       <div class="pt-2 pb-1 flex justify-between items-center">
+                                                            <p class="text-xs font-semibold text-[#031849]">THW - New listing creation</p>
+                                                            <p class="text-[#4FAFCB] text-[10px] font-semibold px-6">#6493</p>
+                                                       </div>
+                                                       <div class="flex flex-row gap-4 items-center">
+                                                            <div class="flex flex-row items-center gap-1 text-[#9AA3AB] text-[10px]">
+                                                                <object data="../images/message-square-2.svg" width="10px" type=""></object>
+                                                                <!-- name is dynamic -->
+                                                                <p>Darren addams</p>
+                                                            </div>
+                                                            <div class="flex flex-row items-center gap-1 text-[#9AA3AB] text-[10px]">
+                                                                <!-- <p class="text-lg">.</p> -->
+                                                                <!-- dynamic name -->
+                                                                <p>Headboard Workshop</p>
+                                                            </div>
+                                                       </div>
+                                                    </div>
+                                                     
+                                                </div>
+                                                <div class="w-full border-t border-[#D5D9DD] mt-4">
+                                                    <!-- number of hours is dynamic -->
+                                                    <div class="w-full flex justify-between items-center text-[#9AA3AB] text-[10px] py-1.5">
+                                                        <p>Created 2 hours ago</p>
+                                                        <p>Agent responded an hour ago</p>
+                                                        <p>Response due in 2 hours</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- <div class="border-x border-b border-[#D5D9DD] w-full h-32">
+    
+                                        </div> -->
+                                        <!-- Reports end here -->
+                                    </div>
+    
+                                    <!-- Messages -->
+                                    <div class="lg:w-1/2 min-h-screen">
+                                        <div class="w-full border-x border-t border-[#D5D9DD] flex justify-center items-center">
+                                            <div class="w-11/12 flex flex-row gap-4 my-1.5">
+                                                <!-- M Icon design -->
+                                                <div class="flex justify-center items-center px-3 py-2.5 bg-[#4FAFCB] rounded w-fit">
+                                                    <p class="text-[10px] font-semibold text-white">M</p>
+                                                </div>
+                                                <div class="text-[11px] font-semibold text-[#031849] flex flex-row items-center gap-2">
+                                                    <object data="../images/message_filled.svg" width="11px" type=""></object>
+                                                    <p>Darren williams</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="border border-[#D5D9DD] w-full overflow-y-auto h-screen flex justify-center">
+                                            <div class="w-11/12">
+                                                <!-- div for first message -->
+                                                <div class="flex flex-row items-center gap-4 my-6">
+                                                    <div class="flex justify-center items-center px-3 py-2.5 bg-[#4FAFCB] rounded w-fit">
+                                                        <p class="text-[10px] font-semibold text-white">M</p>
+                                                    </div>
+                                                    <div class="w-fit p-4 text-xs font-semibold text-white bg-[#4FAFCB] rounded">
+                                                        <p>Incomplete listing Needs…</p>
+                                                    </div>
+                                                    <div class="w-fit h-fit cursor-pointer">
+                                                        <!-- 3 dots for more -->
+                                                        <img src="../images/more-horizontal.svg" width="13px" alt="" class="cursor-pointer">
+                                                    </div>
+                                                    <div class="w-fit h-fit cursor-pointer">
+                                                        <!-- arrow maybe forwarding -->
+                                                        <img src="../images/corner-up-left.svg" width="15px" class="cursor-pointer" alt="" srcset="">
+                                                    </div>
+                                                </div>
+                                                <!-- second message div -->
+                                                <div class="flex flex-row items-center gap-4 my-6">
+                                                    <div class="flex justify-center items-center px-3 py-2.5 bg-[#4FAFCB] rounded w-fit invisible">
+                                                        <p class="text-[10px] font-semibold text-white">M</p>
+                                                    </div>
+                                                    <div class="w-fit p-4 text-xs font-semibold text-white bg-[#4FAFCB] rounded">
+                                                        <p>
+                                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+                                                            sed do eiusmod tempor incididunt ut 
+                                                            labore et dolore magna aliqua. Ut enim ad
+                                                        </p>
+                                                    </div>
+                                                    <div class="w-fit h-fit cursor-pointer">
+                                                        <!-- 3 dots for more -->
+                                                        <img src="../images/more-horizontal.svg" width="13px" alt="" class="cursor-pointer">
+                                                    </div>
+                                                    <div class="w-fit h-fit cursor-pointer">
+                                                        <!-- arrow maybe forwarding -->
+                                                        <img src="../images/corner-up-left.svg" width="15px" class="cursor-pointer" alt="" srcset="">
+                                                    </div>
+                                                </div>
+    
+                                                <!-- Reply div design -->
+                                                <div class="sticky bottom-0">
+                                                    <textarea row="4" class="w-full p-4 text-[10px] bg-white rounded shadow">
+    
+                                                    </textarea>
+    
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                               
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- end of container div -->
+        </div>
+        <!-- end of flex-1 layout div -->
+    </div>
+</body>
+</html>

@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./dist/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka&family=Kanit:wght@300&family=Poppins:wght@300&family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body class="">
+    <div class="w-full bg-[#F4F8FE] flex">
+      <!-- SIDE NAVIGATION STARTS HERE -->
+    <div class="hidden xl:block w-64 h-screen">
+        <div class="fixed w-64 h-screen overflow-y-auto">
+            <div class="m-6">
+                <p class="text-[#0957CB] text-lg font-semibold uppercase px-4">Abel's Space</p>
+            </div>
+
+            <!-- A-HREF LINKS STARTS HERE -->
+            <div class="m-6 h-20 text-xs font-lg">
+                <a href="./index.html">
+                  <section class="w-4/5 flex justify-between items-center capitalize p-4 my-2 hover:bg-white hover:shadow-lg rounded-lg cursor-pointer">
+                    <div class="w-fit flex flex-row gap-2">
+                        <object data="./images/home.svg" type="image/svg+xml" width="15px"></object>
+                        <p>Dashboard</p>
+                    </div>
+                    <object data="./images/chevron-right.svg" type="image/svg+xml" width="15px"></object>
+                  </section>
+                </a>
+                <a href="./pages/users.html">
+                  <section class="w-4/5 flex justify-between items-center capitalize p-4 my-2 hover:shadow-lg hover:bg-white rounded-lg cursor-pointer">
+                    <div class="w-fit flex flex-row gap-2">
+                        <object data="./images/users.svg" type="image/svg+xml" width="15px"></object>
+                        <p>Users</p>
+                    </div>
+                    <object data="./images/chevron-right.svg" type="image/svg+xml" width="15px"></object>
+                  </section>
+                </a>
+                <a href="./pages/report.html">
+                  <section class="w-4/5 flex justify-between items-center capitalize p-4 my-2 hover:shadow-lg hover:bg-white rounded-lg cursor-pointer">
+                    <div class="w-fit flex flex-row gap-2">
+                        <object data="./images/file-text.svg" type="image/svg+xml" width="15px"></object>
+                        <p>Report</p>
+                    </div>
+                    <object data="./images/chevron-right.svg" type="image/svg+xml" width="15px"></object>
+                  </section>
+                </a>
+                <a href="">
+                  <section class="w-4/5 flex justify-between items-center capitalize p-4 my-2 hover:shadow-lg hover:bg-white rounded-lg cursor-pointer">
+                    <div class="w-fit flex flex-row gap-2">
+                        <object data="./images/inbox.svg" type="image/svg+xml" width="15px"></object>
+                        <p>Inbox</p>
+                    </div>
+                    <object data="./images/chevron-right.svg" type="image/svg+xml" width="15px"></object>
+                  </section>
+                </a>
+                <a href="">
+                  <section class="w-4/5 flex justify-between items-center capitalize p-4 my-2 hover:shadow-lg hover:bg-white rounded-lg cursor-pointer">
+                    <div class="w-fit flex flex-row gap-2">
+                        <object data="./images/Vector.svg" type="image/svg+xml" width="15px"></object>
+                        <p>Available units</p>
+                    </div>
+                    <object data="./images/chevron-right.svg" type="image/svg+xml" width="15px"></object>
+                  </section>
+                </a>
+            </div>
+          </div>
+          <!-- A-HREF LINKS ENDS HERE -->
+    </div>
+      <!-- FLEX LAYOUT STARTS HERE -->
+      <div class="flex-1 w-full">
+        <!-- CONTAINER DIV FOR FLEX LAYOUT -->
+          <div class="w-full h-auto ">
+            <!-- TOP HEADER STARTS -->
+            <!-- FIRST DIVISION OF TOP HEADER, CONTAINING hello text, search, button -->
+              <div class="flex justify-center xl:w-11/13">
+                <div class="w-11/12 xl:w-11/13">
+                  <div class="w-full flex flex-row items-center gap-4 bg-[#F4F8FE] sticky top-0 ">
+                    <div class="w-full lg:w-4/5 flex justify-between items-center gap-8">
+                      <div class="flex flex-row gap-4 xl:flex-none">
+                        <button class="outline-none w-fit p-2 block xl:hidden">
+                          <img src="./images/menu.svg" alt="" width="20" height="20">
+                        </button>
+                        <div class="capitalize py-2 w-48">
+                          <p class="text-[#0957CB] text-sm font-semibold py-0.5">Hello Emma</p>
+                          <p class="text-[#7C7C80] text-xs pb-0.5">Real Estate agent</p>
+                        </div>
+                      </div>
+                      <div class="lg:flex grow hidden">
+                          <div class="w-full bg-white rounded-lg">
+                              <form action="">
+                                <div class="w-full flex flex-row gap-2 items-center text-[#7C7C80] rounded-lg px-2">
+                                    <object data="./images/search.svg" type="image/svg+xml" width="17px"></object>
+                                    <input type="search" class="grow text-[#7C7C80] text-xs p-2 focus:outline-none rounded-lg" placeholder="Search">
+                                </div>
+                              </form>
+                          </div>
+                      </div>
+  
+                      <div class="flex justify-end w-fit gap-8 lg:gap-0">
+                          <a href="./pages/upload-property.html" class="hidden md:inline">
+                            <div class="w-fit flex flex-row gap-1 bg-[#0957CB] hover:shadow-lg rounded-lg cursor-pointer text-[10px] py-2 px-4 text-white font-semibold">
+                              <object data="./images/plus.svg" type="image/svg+xml" width="15px"></object>
+                              <span>Add&nbsp;Property</span>
+                            </div>
+                          </a>
+
+                          <div class="w-fit flex flex-row items-center gap-2 lg:hidden">
+                            <button class="outline-none w-fit h-fit rounded-lg p-1">
+                              <img src="./images/message-square.svg" alt="" width="17px">
+                            </button>
+                            <button class="outline-none w-fit h-fit rounded-lg p-1">
+                                <img src="./images/bell.svg" alt="" width="17px">
+                            </button>
+                        </div>
+                      </div>
+                      
+                    </div>
+                  <!-- Ends here -->
+                    <!-- SECOND DIVISION OF TOP HEADER, CONTAINING message icon, notification, admin name -->
+                  <div class="w-1/5 hidden lg:flex">
+                      <div class="w-full flex flex-row items-center gap-4">
+                          <button class="outline-none w-fit h-fit rounded-lg p-1">
+                            <img src="./images/message-square.svg" alt="" width="15px">
+                          </button>
+                          <button class="outline-none w-fit h-fit rounded-lg p-1">
+                              <img src="./images/bell.svg" alt="" width="15px">
+                          </button>
+  
+                          <div class="grow bg-white rounded-lg flex justify-between items-center m-2">
+                              <div class="w-fit text-[10px]">
+                                <p class="px-1.5 pt-0.5 font-semibold">Abel</p>
+                                <p class="text-[#7C7C80] px-1.5 pb-0.5">Developer</p>
+                              </div>
+                              <div class="w-fit rounded-lg p-1">
+                                  <img src="./images/dev.svg" alt="dev" width="25px" height="35px" class="object-cover">
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                </div>
+                </div>
+                <!-- ends here -->
+
+              </div>
+              <!-- top header ends here -->
+
+              <!-- DASHBOARD STARTS HERE -->
+                <div class="w-full">
+                  <div class="flex justify-center xl:w-11/13">
+                    <div class="w-11/12 xl:w-11/13 mt-4 mb-8">
+                      <div class="w-full bg-white rounded-lg min-h-screen">
+                          <div class="w-full flex justify-center">
+                              <div class="w-11/12 grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 my-8 capitalize">
+                                    <div class="bg-[#F4F6FB] rounded-lg p-2 flex justify-center">
+                                        <div class="w-11/12 flex justify-between items-center">
+                                            <div class="">
+                                                <p class="px-2 pt-2 text-xs">Active property</p>
+                                                <p class="pb-2 px-2 text-lg font-semibold">12,500 +</p>
+                                            </div>
+                                            <div class="percent">
+                                              <div class="flex justify-end">
+                                                <div class="w-12 h-12 border-4 border-[#E0EDFF] rounded-full flex justify-center items-center">
+                                                    <p class="font-semibold text-xs">0%</p>
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </div>
+                                    </div>
+                                    <div class="bg-[#F4F6FB] rounded-lg p-2 flex justify-center">
+                                      <div class="w-11/12 flex justify-between items-center">
+                                          <div class="">
+                                              <p class="px-2 pt-2 text-xs">properties for sale</p>
+                                              <p class="pb-2 px-2 text-lg font-semibold">35,000 +</p>
+                                          </div>
+                                          <div class="percent">
+                                            <div class="flex justify-end">
+                                              <div class="w-12 h-12 border-4 border-[#E0EDFF] rounded-full flex justify-center items-center">
+                                                  <p class="font-semibold text-xs">0%</p>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="bg-[#F4F6FB] rounded-lg p-2 flex justify-center">
+                                      <div class="w-11/12 flex justify-between items-center">
+                                          <div class="">
+                                              <p class="px-2 pt-2 text-xs">cooperate partner</p>
+                                              <p class="pb-2 px-2 text-lg font-semibold">2,536 +</p>
+                                          </div>
+                                          <div class="percent">
+                                            <div class="flex justify-end">
+                                              <div class="w-12 h-12 border-4 border-[#E0EDFF] rounded-full flex justify-center items-center">
+                                                  <p class="font-semibold text-xs">0%</p>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                    </div>
+                                
+                                <div class="bg-[#F4F6FB] rounded-lg p-2 flex justify-center">
+                                  <div class="w-11/12 flex justify-between items-center">
+                                      <div class="">
+                                          <p class="px-2 pt-2 text-xs">total revenue</p>
+                                          <p class="pb-2 px-2 text-lg font-semibold">$678,345</p>
+                                      </div>
+                                      <div class="percent">
+                                        <div class="flex justify-end">
+                                          <div class="w-12 h-12 border-4 border-[#E0EDFF] rounded-full flex justify-center items-center">
+                                              <p class="font-semibold text-xs">0%</p>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                </div>
+                              </div>
+                          </div>
+                          <!-- graph section -->
+                          <div class="w-full h-auto my-8 flex justify-center ">
+                              <div class="w-11/12">
+                                  <div class="w-full flex flex flex-col md:flex-row gap-8 capitalize">
+                                    <div class="w-full md:w-80">
+                                        <div class="border border-[#E0EDFF] h-28 rounded-lg flex justify-center items-center">
+                                            <div class="w-10/12 flex justify-between">
+                                                <div class="w-1/2 border-r border-[#0957CB]">
+                                                    <p class="text-sm font-semibold py-2">Weekly Target</p>
+                                                    <p class="text-xs text-[#0957CB] font-bold py-2 lowercase poppins">25% achieved</p>
+                                                </div>
+                                                <div class="w-1/2 flex justify-end">
+                                                    <div class="w-20 h-20 border-4 border-[#E0EDFF] rounded-full flex justify-center items-center">
+                                                        <p class="text-[#0957CB] font-semibold text-sm">0%</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="bg-[#0957CB] rounded-lg h-28 my-4 flex justify-center items-center">
+                                          <div class="w-10/12 flex justify-between text-[#fff]">
+                                            <div class="w-1/2 border-r border-[#E0EDFF]">
+                                                <p class="text-sm py-2">monthly Target</p>
+                                                <p class="text-xs font-semibold py-2 lowercase poppins">50% achieved</p>
+                                            </div>
+                                            <div class="w-1/2 flex justify-end">
+                                                <div class="w-20 h-20 border-4 border-[#E0EDFF] rounded-full flex justify-center items-center">
+                                                    <p class="font-semibold text-sm">0%</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        </div>
+                                    </div>
+                                    <!-- graph here -->
+                                    <div class="grow">
+                                        <p class="text-[#0957CB] text-[12px] min-h-[10rem] font-semibold pb-4">Daily Views</p>
+                                        <div class="w-full rounded">
+                                          <!-- daily views graph here -->
+                                        </div>
+                                    </div>
+                                    <!-- end of graph -->
+                                  </div>
+                              </div>
+                          </div>
+                          <!-- latest orders  -->
+                          <div class="w-full my-8 flex justify-center ">
+                              <div class="w-11/12">
+  
+                                  <p class="py-2 text-sm font-semibold poppins">Latest Orders</p>
+                                <!-- Latest order table begins here -->
+                                  <div class="mt-4 mb-12">
+                                      <div class="latest-order-table">
+                                          <div class="table-section poppins mb-8">
+                                              <table>
+                                                  <thead>
+                                                      <tr>
+                                                        <th>Order ref</th>
+                                                        <th>Customer</th>
+                                                        <th>
+                                                          <div class="flex flex-row items-center gap-1">
+                                                            <object data="./images/arrow-down.svg" type="" width="13px"></object>
+                                                            <span>Date</span>
+                                                          </div>
+                                                        </th>
+                                                        <th>status</th>
+                                                      </tr>
+                                                  </thead>
+  
+                                                  <tbody>
+                                                    <tr>
+                                                       <td>CDD1049</td>
+                                                       <td>Ekaterina Tankova</td>
+                                                       <td>12/04/2019</td>
+                                                       <td>
+                                                        <div class="px-2 py-1 bg-[#FFB020] text-[10px] text-[#fff] w-fit rounded-full">
+                                                          pending</div>
+                                                       </td>
+                                                    </tr>
+                                                    <tr>
+                                                      <td>CDD1009</td>
+                                                      <td>qao Yu</td>
+                                                      <td>12/04/2019</td>
+                                                      <td>
+                                                       <div class="px-2 py-1 bg-[#14B8A6] text-[10px] text-[#fff] w-fit rounded-full">
+                                                         successful</div>
+                                                      </td>
+  
+                                                    </tr>
+                                                    <tr>
+                                                      <td>CDD1039</td>
+                                                      <td>alexa richardson</td>
+                                                      <td>12/04/2019</td>
+                                                      <td>
+                                                       <div class="px-2 py-1 bg-[#D14343] text-[10px] text-[#fff] w-fit rounded-full">
+                                                         refunded</div>
+                                                      </td>
+  
+                                                   </tr>
+                                                   <tr>
+                                                    <td>CDD1050</td>
+                                                    <td>Elena Tankova</td>
+                                                    <td>12/04/2019</td>
+                                                    <td>
+                                                     <div class="px-2 py-1 bg-[#FFB020] text-[10px] text-[#fff] w-fit rounded-full">
+                                                       pending</div>
+                                                    </td>
+                                                 </tr>
+                                                  </tbody>
+                                              </table>
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <!-- Latest order table ends here -->
+                              </div>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              <!-- DASHBOARD ENDS HERE -->
+          </div>
+      </div>
+    </div>
+</body>
+</html>
